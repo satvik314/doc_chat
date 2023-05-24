@@ -112,7 +112,7 @@ def main():
             if 'past' not in st.session_state:
                 st.session_state['past'] = []
 
-            query = st.text_input("Ask your question", key = "input")
+            query = st.text_input(f"You can now chat with {store_name}", key = "input", placeholder= "Ask your question!")
 
             if 'messages' not in st.session_state:
                 st.session_state.messages = []
