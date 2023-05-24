@@ -63,7 +63,7 @@ def main():
         # reading the pdf
         pdf_reader = PdfReader(pdf)
 
-        if len(pdf_reader.pages)  > 55:
+        if len(pdf_reader.pages)  > 25:
             st.error("Please load a PDF with < 25 pages.")
         else:
             # convert into raw text
@@ -118,11 +118,11 @@ def main():
                 st.session_state.messages = []
 
             if query:
-                query_short = query + "(Please answer in less than 50 words)"
+                # query_short = query + "(Please answer in less than 50 words)"
                 with st.spinner("typing..."):
                     messages = st.session_state['messages']
                     messages = update_chat(messages, "user", query)
-                    response = conversation({"question" : query_short})['answer']
+                    response = conversation({"question" : query})['answer']
                     messages = update_chat(messages, "assistant", response)
                     st.session_state.past.append(query)
                     st.session_state.generated.append(response)
