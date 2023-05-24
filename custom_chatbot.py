@@ -63,7 +63,7 @@ def main():
         # reading the pdf
         pdf_reader = PdfReader(pdf)
 
-        if len(pdf_reader.pages)  > 25:
+        if len(pdf_reader.pages)  > 55:
             st.error("Please load a PDF with < 25 pages.")
         else:
             # convert into raw text
