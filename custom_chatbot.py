@@ -118,6 +118,7 @@ def main():
                 st.session_state.messages = []
 
             if query:
+                query = query + "(Please answer in less than 40 words)"
                 with st.spinner("typing..."):
                     messages = st.session_state['messages']
                     messages = update_chat(messages, "user", query)
