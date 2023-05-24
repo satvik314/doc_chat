@@ -41,11 +41,16 @@ with st.sidebar:
     )
     add_vertical_space(8)
     st.markdown("""
+    Want to learn how to do this? 
+    - [Sign up for a free session!](https://docs.google.com/forms/d/e/1FAIpQLSeVbGaABr0wyg7FCn1Qhsj6YtWoK18G-qH0VrojoT9OHDFTyg/viewform)
+    """)
+    add_vertical_space(3)
+    st.markdown("""
     If you want to access other apps I have created:
     - [Learn from YouTube](https://satvik314-yt-learn-main-dtw9a8.streamlit.app/)
     - [Auto To-Do](https://satvik314-auto-todo-app-wrrgo5.streamlit.app/)
     """)
-    add_vertical_space(5)
+    add_vertical_space(1)
     st.write("Reach out to me on [LinkedIn](https://www.linkedin.com/in/satvik-paramkusham-76a33610a/)")
 
 def main():
