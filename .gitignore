@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# other files
+app_v0.py
+app.py
+frugal_gpt.pdf
+frugal_gpt.pkl
+
 # C extensions
 *.so
 
