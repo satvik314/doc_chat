@@ -118,11 +118,11 @@ def main():
                 st.session_state.messages = []
 
             if query:
-                query = query + "(Please answer in less than 40 words)"
+                query_short = query + "(Please answer in less than 50 words)"
                 with st.spinner("typing..."):
                     messages = st.session_state['messages']
                     messages = update_chat(messages, "user", query)
-                    response = conversation({"question" : query})['answer']
+                    response = conversation({"question" : query_short})['answer']
                     messages = update_chat(messages, "assistant", response)
                     st.session_state.past.append(query)
                     st.session_state.generated.append(response)
