@@ -54,7 +54,7 @@ with st.sidebar:
     st.write("Reach out to me on [LinkedIn](https://www.linkedin.com/in/satvik-paramkusham-76a33610a/)")
 
 def main():
-    st.header("Talk to POF! 🐒")
+    st.header("Talk to PDF! 🐒")
 
     #upload a PDF file
     pdf = st.file_uploader("Upload your PDF", type = 'pdf')
