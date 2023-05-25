@@ -56,6 +56,11 @@ with st.sidebar:
 def main():
     st.header("Talk to PDF! 🐒")
 
+    st.markdown("""
+    Want to learn how to do this? 
+    - [Sign up for a free session!](https://docs.google.com/forms/d/e/1FAIpQLSeVbGaABr0wyg7FCn1Qhsj6YtWoK18G-qH0VrojoT9OHDFTyg/viewform)
+    """)
+
     #upload a PDF file
     pdf = st.file_uploader("Upload your PDF", type = 'pdf')
 
