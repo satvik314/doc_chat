@@ -36,7 +36,7 @@ with st.sidebar:
     st.markdown(
         '''
         - supports only PDF
-        - page limit < 25 pages
+        - page limit < 50 pages
         '''
     )
     add_vertical_space(8)
@@ -67,8 +67,8 @@ def main():
         # reading the pdf
         pdf_reader = PdfReader(pdf)
 
-        if len(pdf_reader.pages)  > 25:
-            st.error("Please load a PDF with < 25 pages.")
+        if len(pdf_reader.pages)  > 50:
+            st.error("Please load a PDF with < 50 pages.")
         else:
             # convert into raw text
             text = ""
