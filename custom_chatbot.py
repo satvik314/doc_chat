@@ -47,8 +47,8 @@ with st.sidebar:
     add_vertical_space(3)
     st.markdown("""
     If you want to access other apps I have created:
+    - [Chat with Elon Musk](https://satvik314-character-ai-char-ai-oe032r.streamlit.app/)
     - [Learn from YouTube](https://satvik314-yt-learn-main-dtw9a8.streamlit.app/)
-    - [Auto To-Do](https://satvik314-auto-todo-app-wrrgo5.streamlit.app/)
     """)
     add_vertical_space(1)
     st.write("Reach out to me on [LinkedIn](https://www.linkedin.com/in/satvik-paramkusham-76a33610a/)")
