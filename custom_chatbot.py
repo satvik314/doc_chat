@@ -42,7 +42,7 @@ with st.sidebar:
     add_vertical_space(8)
     st.markdown("""
     Want to learn how to do this? 
-    - [Sign up for a free session!](https://shorturl.at/ilB12)
+    - [Sign up for the workshop!](https://shorturl.at/ilB12)
     """)
     add_vertical_space(3)
     st.markdown("""
