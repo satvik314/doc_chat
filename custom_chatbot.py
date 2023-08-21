@@ -42,7 +42,7 @@ with st.sidebar:
     add_vertical_space(8)
     st.markdown("""
     Want to learn how to do this? 
-    - [Sign up for a free session!](https://docs.google.com/forms/d/e/1FAIpQLSeVbGaABr0wyg7FCn1Qhsj6YtWoK18G-qH0VrojoT9OHDFTyg/viewform)
+    - [Sign up for a free session!](https://shorturl.at/ilB12)
     """)
     add_vertical_space(3)
     st.markdown("""
@@ -57,7 +57,7 @@ def main():
     st.header("Talk to PDF! 🐒")
 
     st.markdown("""
-    [Want to learn how to do this?](https://docs.google.com/forms/d/e/1FAIpQLSeVbGaABr0wyg7FCn1Qhsj6YtWoK18G-qH0VrojoT9OHDFTyg/viewform)
+    [Want to learn how to do this?](https://shorturl.at/ilB12)
     """)
 
     #upload a PDF file
